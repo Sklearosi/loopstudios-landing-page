@@ -10,7 +10,7 @@ mobilee
 
 
 #parent {
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 
