@@ -1,0 +1,724 @@
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+/*
+mobilee
+*/
+
+
+#parent {
+    overflow: hidden;
+}
+
+#menu-div {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin-left: 100%;
+    height: 0;
+    position: relative;
+    transition: 0.6s;
+    
+}
+
+#menu-div.active {
+    height: 100vh;
+    margin-left: 0;
+    
+}
+
+#xmark {
+    width: 20px;
+    right: 30px;
+    top: 43px;
+    position: absolute;
+}
+
+#menu-logo {
+    position: absolute;
+    width: 144px;
+    top: 40px;
+    left: 24px;
+}
+
+#burger-menu {
+    color: white;
+    height: 221px;
+    display: grid;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 223px;
+    left: 24px;
+}
+
+#burger-menu p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+body.preventscroll {
+    overflow: hidden;
+    
+}
+
+
+
+#heading {
+    position: relative;
+    width: 100%;
+    background-image: url(./images/mobile/image-hero.jpg);
+    height: 650px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 144px;
+    top: 40px;
+    left: 25px;
+}
+
+#burger {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 44px;
+    right: 20px; 
+    width: 24px;
+    height: 16px;
+}
+
+#mask {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#heading-h {
+    position: absolute;
+    z-index: 4;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 60%;
+    font-weight: 200;
+    left: 0;
+    right: 0;
+    margin: 250px auto;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: left;
+    border: 2px solid white;
+    padding: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+#middle {
+    width: 90%;
+    position: relative;
+    margin-top: 50px;
+    margin: 80px auto;
+}
+
+#middle-img {
+    height: 224px;
+    background-image: url(./images/mobile/image-interactive.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#middle-text {
+    margin-top: 50px;
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#middle-first-t {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 300;
+}
+
+#middle-second-t {
+    font-family: Alata;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+#content {
+    width: 90%;
+    margin: 70px auto;
+}
+
+#content-first-t {
+font-size: 32px;
+font-weight: 300;
+letter-spacing: 1px;
+color: #000000;
+text-align: center;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+#content-graphs {
+    width: 100%;
+    display: grid;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+#graphs {
+    width: 100%;
+    height: 120px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#graphs p {
+    width: 130px;
+    margin-top: 50px;
+    margin-left: 25px;
+    position: absolute;
+    z-index: 2;
+}
+
+#layer {
+    width: 90%;
+    height: 120px;
+    position: absolute;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.726), rgba(153, 153, 153, 0)) fixed;
+    z-index: 1;
+}
+
+
+#graphs:nth-child(1) {
+    background-image: url(./images/mobile/image-deep-earth.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(2) {
+    background-image: url(./images/mobile/image-night-arcade.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(3) {
+    background-image: url(./images/mobile/image-soccer-team.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(4) {
+    background-image: url(./images/mobile/image-grid.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(5) {
+    background-image: url(./images/mobile/image-from-above.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(6) {
+    background-image: url(./images/mobile/image-pocket-borealis.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(7) {
+    background-image: url(./images/mobile/image-curiosity.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#graphs:nth-child(8) {
+    background-image: url(./images/mobile/image-fisheye.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: white;
+    font-family: Alata;
+    border: 1px black solid;
+    letter-spacing: 5px;
+    font-size: 14px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 35px auto;
+    position: absolute;
+    width: 200px;
+    left: 0;
+    right: 0;
+}
+
+#last {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 470px;
+    position: relative;
+    margin-top: 150px;
+}
+
+#last p {
+    font-family: Alata;
+}
+
+#logo-last {
+width: 144px;
+position: absolute;
+top: 50px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+
+#list {
+display: grid;
+justify-content: space-evenly;
+width: 59px;
+height: 189px;
+position: absolute;
+top: 100px;
+left: 0;
+right: 0;
+margin: 0 auto;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+}
+
+
+#socials {
+    width: 144px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 320px;
+}
+
+#socials img {
+    width: 20px;
+}
+
+#last-last {
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 60px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    #burger {
+        display: none;
+    }
+
+    #logo {
+        top: 64px;
+        left: 165px;
+    }
+
+    #heading {
+        height: 650px;
+        background-image: url(./images/desktop/image-hero.jpg);
+    }
+
+    #menu-div {
+        width: 380px;
+        background-color: none;
+        position: absolute;
+        height: 25px;
+        right: 200px;
+        z-index: 100;
+        background-color: #ffffff00;
+        transition: none;
+        top: 66px;
+    }
+
+    #menu-logo {
+        display: none;
+    }
+    
+    #xmark {
+        display: none;
+    }
+
+    #burger-menu {
+        display: flex;
+        width: 450px;
+        height: 25px;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+
+    #burger-menu p {
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+
+    #heading-h {
+        left:unset;
+        top: unset;
+        margin: 0;
+        left: 164px;
+        top: 226px;
+        width: 500px;
+        height: 200px;
+        font-size: 60px;
+        line-height: 65px;
+        color: #ffffff;
+    }
+
+    #middle {
+        height: 500px;
+        position: relative;
+    }
+
+    #middle-img {
+        display: none;
+    }
+
+    #middle {
+        display: flex;
+        background-image: url(./images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        background-size:  70%;
+        background-position:top left;
+        width: 70%;
+
+    }
+
+    #middle-text {
+        height: 240px;
+        width: 430px;
+        background-color: white;
+        position: absolute;
+        right: 0;
+        bottom: -30px;
+        
+        padding: 30px;
+    }
+
+    #middle-first-t {
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 48px;
+        text-align: left;
+        width: 500px;
+        margin-top: 53px;
+        margin-left: 30px;
+    }
+
+    #middle-second-t {
+        text-align: left;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        width: 445px;
+        margin-left: 30px;
+    }
+
+    #content-graphs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #content {
+        width: 70%;
+        height: 1058px;
+        position: relative;
+        margin-top: 160px;
+    }
+
+    
+    #graphs {
+        height: 450px;
+        position: relative;
+    }
+
+    #graphs p {
+        margin-top: 370px;
+    }
+
+    #graphs:nth-child(1) {
+        background-image: url(./images/desktop/image-deep-earth.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(2) {
+        background-image: url(./images/desktop/image-night-arcade.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(3) {
+        background-image: url(./images/desktop/image-soccer-team.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(4) {
+        background-image: url(./images/desktop/image-grid.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(5) {
+        background-image: url(./images/desktop/image-from-above.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(6) {
+        background-image: url(./images/desktop/image-pocket-borealis.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(7) {
+        background-image: url(./images/desktop/image-curiosity.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #graphs:nth-child(8) {
+        background-image: url(./images/desktop/image-fisheye.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #layer {
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        background:linear-gradient(to right, rgba(0, 0, 0, 0.699), rgba(153, 153, 153, 0.082)) fixed;
+        z-index: 1;
+    }
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        left: unset;
+    }
+
+    #content-first-t {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    #last {
+        width: 100%;
+        background-color: black;
+        color: white;
+        height: 470px;
+        position: relative;
+        margin-top: 150px;
+    }
+
+    #last {
+        height: 160px;
+    }
+
+    #logo-last {
+        width: 144px;
+        position: absolute;
+        top: 40px;
+        left: 165px;
+        margin:0;
+        }
+
+        #socials {
+            width: 144px;
+            display: flex;
+            justify-content: space-evenly;
+            position: absolute;
+            right: 165px;
+            margin: 0;
+            left: unset;
+            top: 40px;
+        }
+
+
+        #list {
+            justify-content: space-evenly;
+            width: 380px;
+            height: 35px;
+            position: absolute;
+            top: unset;
+            left: unset;
+            right: unset;
+            margin: 0;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 400;
+            display: flex;
+            top: 80px;
+            left: 140px;
+            }
+
+            #last-last {
+                opacity: 0.5;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                position: absolute;
+                left: unset;
+                right: unset;
+                margin: 0;
+                bottom: unset;
+                text-align: center;
+                right: 175px;
+                top: 80px;
+            }
+
+            #burger-menu p{
+                position: relative;
+            }
+
+            #burger-menu p::after{
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: white;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -3px;
+                transition: 0.5s;
+
+            }
+
+            #burger-menu p:hover::after {
+                width: 70%;
+            }
+
+            #layer:hover {
+                background-color: rgba(255, 255, 255, 0.788);
+                transition: 0.5s;
+                cursor: pointer;
+            }
+
+            #soc-img {
+                position: relative;
+                cursor: pointer;
+            }
+
+            #soc-img::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: white;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -4px;
+                transition: 0.5s;
+            }
+
+            #soc-img:hover::after {
+                width: 100%;
+            }
+
+            #list p {
+                position: relative;
+                cursor: pointer;
+            }
+
+            #list p::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                background-color: white;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+
+            #list p:hover::after {
+                width: 80%;
+            }
+
+            button {
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            #layer {
+                transition: 0.5s;
+            }
+
+            button:hover {
+                background-color: black;
+                border: 1px black solid;
+                color: white;
+                transition: 0.5s;
+            }
+
+}
+
+
+
+
+
