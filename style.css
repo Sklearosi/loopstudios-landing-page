@@ -9,7 +9,7 @@ mobilee
 */
 
 
-#parent {
+body {
     overflow: hidden;
     position: fixed;
 }
