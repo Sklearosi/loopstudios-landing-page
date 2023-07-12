@@ -9,9 +9,9 @@ mobilee
 */
 
 
-body {
+#parent {
     overflow: hidden;
-    position: fixed;
+    position: relative;
 }
 
 #menu-div {
