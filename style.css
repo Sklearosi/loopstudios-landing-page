@@ -11,6 +11,7 @@ mobilee
 
 #parent {
     overflow: hidden;
+    position: fixed;
 }
 
 #menu-div {
